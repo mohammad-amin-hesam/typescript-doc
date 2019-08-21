@@ -1,0 +1,15 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "watch": "tsc --watch --outDir dist main.ts",
+    "server": "nodemon dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
